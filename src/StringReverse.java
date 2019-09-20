@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Scanner;
 class StringReverse{
 
 	public static void main(String a[]) throws Exception
@@ -8,14 +7,15 @@ class StringReverse{
         String reverse = ""; //will contain reverse characters of the given string
        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
        System.out.println("Enter the Statement:"); 
+       System.out.println();
          st=br.readLine();
         System.out.println("The reverse is:");
 
-        /*  Uncomment this solution code 
+      
         for(int i = st. length() - 1; i >= 0; i--) {
         reverse = reverse + st.charAt(i);
         } 
-        */ 
+        
         System.out.println(reverse);
  	 
         }  
